@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Css stylesheets with relative paths</title>
+
+    <style>
+        body { padding: 0;
+                margin:0;
+                background-color: #efeee7;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                color: #333333;
+                line-height: 150%;}
+
+        header { background-color: #333333;
+            padding: 10px;
+            margin: 0;}
+
+        h1 {color: #eeeeee;
+        font-size: 28px;
+            text-align: center;
+            line-height: 1em;
+            text-align: center;
+            margin: 0;
+            padding-top: 20px;
+            padding-bottom: 20px;}
+
+        h2 {font-size: 24px;margin-left: 30px;}
+
+        .container{width: 1024px; margin: auto 0;}
+
+        #main-bio, #contact-info, #bio-image {float: left;}
+        
+        #bio-image { width: 200px;margin-right: 20px;margin-left: 30px;}
+
+        #main-bio {width: 70%;}
+
+        #contact-info { width: 30%; }
+
+        a:link {color: #d21034;}
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+   <h1>Student Bio</h1> 
+</header>
+<div class="container">
+    <section id="main-bio">
+   <h2>Perry Theobald</h2>
+
+<img id="bio-image"src="https://via.placeholder.com/200x200" alt="A placeholder image that says 200x200">
+
+<p>I am from New Jersey but have been living in Ocean Beach, San Diego for 8 years now. What I love to do when not working 
+    is to surf whenever there is a good swell. If you want to catch me out there I typically surf the OB Pier or Sunset Cliffs.</p>
+</section>
+
+<section id="contact-info">
+<h2>Contact Info</h2>
+
+<ul>
+    <li><strong>Email:</strong> <a href= "mailto:perrytjr@gmail.com">perrytjr@gmail.com</a></li>
+    <li><strong>Github:</strong> <a href="https://github.com/perrytjr">@perrytjr</a></li>
+    <li><strong>Portfolio:</strong> <a href="Coming Soon">Coming Soon</a></li>
+        </ul>
+    </section>
+</div>
+
+</body>
+
+</html>
